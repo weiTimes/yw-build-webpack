@@ -12,11 +12,6 @@
     "test:unit": "istanbul cover mocha",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "dependencies": {
     "assert": "^2.0.0",
     "autoprefixer": "^10.2.5",
@@ -50,5 +45,10 @@
     "less-loader": "^9.0.0",
     "postcss-loader": "^5.3.0",
     "px2rem-loader": "^0.1.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
