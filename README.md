@@ -1,5 +1,7 @@
 # webpack 多配置
 
+![release status](https://travis-ci.com/weiTimes/yw-build-webpack.svg?branch=master)
+
 包含的配置：
 
 - 基础配置
