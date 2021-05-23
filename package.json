@@ -14,7 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "commitmsg": "validate-commit-msg"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "dependencies": {
@@ -41,6 +41,8 @@
     "webpack-merge": "^5.7.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "babel-eslint": "^10.1.0",
     "css-loader": "^5.2.5",
     "eslint": "^7.27.0",
