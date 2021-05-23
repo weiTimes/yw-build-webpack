@@ -1,6 +1,6 @@
-# webpack 多配置
-
 ![release status](https://travis-ci.com/weiTimes/yw-build-webpack.svg?branch=master)
+
+# webpack 多配置
 
 包含的配置：
 
