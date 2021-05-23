@@ -6,8 +6,7 @@ node_js:
   - 12.16.1
 
 cache: # 保存缓存
-  - npm
-  - yarn
+  yarn: true
 
 before_install: # 安装依赖
   - npm install -g yarn
