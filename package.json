@@ -10,8 +10,12 @@
     "eslint": "eslint config --fix",
     "test:smoke": "node ./test/smoke/index.js",
     "test:unit": "istanbul cover mocha",
-    "commitmsg": "validate-commit-msg",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "husky": {
+    "hooks": {
+      "commitmsg": "validate-commit-msg"
+    }
   },
   "dependencies": {
     "assert": "^2.0.0",
