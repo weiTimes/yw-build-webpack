@@ -16,3 +16,12 @@
 - config 配置源码
 - test 测试用例
 - src 构建目标
+
+## 可用的命令
+
+- serve - 开启开发环境
+- build - 构建生产包
+- build:ssr - 构建 ssr 包
+- eslint - eslint 检测
+- test:smoke - 冒烟测试
+- test:unit - 单元测试

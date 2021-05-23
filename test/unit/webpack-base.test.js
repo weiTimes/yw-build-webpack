@@ -2,7 +2,7 @@
  * @Author: yewei
  * @Date: 2021-05-23 13:37:49
  * @Last Modified by: yewei
- * @Last Modified time: 2021-05-23 13:54:12
+ * @Last Modified time: 2021-05-23 15:56:22
  *
  * 测试 webapck 基础配置
  */
@@ -15,8 +15,8 @@ describe('webpack.common.js test case.', () => {
 
   it('entry', () => {
     assert.strictEqual(
-      baseConfig.entry.main,
-      '/Users/yewei/Project/source-code-realize/play-webpack/lib/yw-build-webpack/src/index.jsx'
+      baseConfig.entry.main.includes('yw-build-webpack/src/index.jsx'),
+      true
     );
   });
 });
