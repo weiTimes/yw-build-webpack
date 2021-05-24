@@ -13,4 +13,5 @@ before_install: # 安装依赖
   - yarn
 
 scripts: # 执行测试
-  - yarn test
+  - yarn test:smoke
+  - yarn test:unit
